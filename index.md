@@ -1,6 +1,5 @@
 ---
 layout: default
-title: belt.sh
 ---
 
 # belt.sh
