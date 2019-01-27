@@ -29,3 +29,5 @@ So what does sourcing the script do?
    git repository down
 1. Sources the main `belt.sh` script that makes a number of functions available
    for loading **tools**
+
+<div class="alert alert-warning">belt.sh is currently under active development</div>
