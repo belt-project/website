@@ -1,0 +1,14 @@
+title: belt.sh
+description: 'Tool belt for simple devops in bash'
+url: 'https://belt.sh'
+
+permalink: /post/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+highlighter: rouge
+
+exclude: ['CNAME', 'Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md']
