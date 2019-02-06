@@ -12,14 +12,14 @@ Tool belt for simple devops in bash.
 
 Add the following line to the top of your script:
 
-    source /dev/stdin <<< "$(curl -Lsm 2 https://git.io/fh6kT)"
+    source /dev/stdin <<< "$(curl -Lsm 2 https://get.belt.sh)"
 
 Below is an example of using `belt.sh` and the `hello` **tool**.
 
     #!/usr/bin/env bash
     set -eo pipefail
 
-    source /dev/stdin <<< "$(curl -Lsm 2 https://git.io/fh6kT)"
+    source /dev/stdin <<< "$(curl -Lsm 2 https://get.belt.sh)"
 
     hello "$(whoami)"
 
