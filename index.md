@@ -4,24 +4,13 @@ layout: default
 
 # belt.sh
 
-Tool belt for simple devops in bash.
-
-<div class="alert alert-success">CURRENT VERSION &mdash; v0.0.1</div>
+The tool belt for simple devops in bash.
 
 ## Usage
 
 Add the following line to the top of your script:
 
     source /dev/stdin <<< "$(curl -Lsm 2 https://get.belt.sh)"
-
-Below is an example of using `belt.sh` and the `hello` **tool**.
-
-    #!/usr/bin/env bash
-    set -eo pipefail
-
-    source /dev/stdin <<< "$(curl -Lsm 2 https://get.belt.sh)"
-
-    hello "$(whoami)"
 
 So what does sourcing the script do?
 
